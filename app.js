@@ -51,7 +51,7 @@ server.post('/api/messages', connector.listen());
 var bot = new builder.UniversalBot(connector);
 
 var model = 'https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/924f8dab-56bf-418c-bde6-038b408314a6?subscription-key=cacc8875f67b434eb7c2ced401a21f2c&verbose=true&timezoneOffset=0&q=';
-https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/02a33f95-a634-4385-8dcf-944b94d47328?subscription-key=cacc8875f67b434eb7c2ced401a21f2c&timezoneOffset=0&verbose=true&q=';
+
 var recognizer= new builder.LuisRecognizer(model);
 var intents = new builder.IntentDialog({ recognizers: [recognizer] });
 /*flags*/
