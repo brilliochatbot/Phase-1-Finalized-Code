@@ -4,7 +4,7 @@ var request = require('request');
 var apiai = require('apiai');
 var app = apiai("246c44caf97540f6a617d1f021fa8d4a");
 
-const AIMLInterpreter = require('AIMLInterpreter');
+//const AIMLInterpreter = require('AIMLInterpreter');
 // Setup Restify Server
 var server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, function () {
