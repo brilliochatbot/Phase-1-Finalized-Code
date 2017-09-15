@@ -33,7 +33,7 @@ server.post('/api/messages', connector.listen());
 //     })
 // };
 
-
+//ggggg
 // bot.dialog('/', [
 //     function (session) {
 //         builder.Prompts.text(session, 'Hi! Ask me something...');
